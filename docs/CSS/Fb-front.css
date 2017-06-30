@@ -370,12 +370,15 @@ blockquote {
     width:468px;
     height: 32px;
     border: 1px solid #dddfe2;
+    margin-right: -2px;
+    margin-bottom: -2px;
     
  
 }
 
 .cmt-img{
    display: inline;  
+    margin-top: -3px;
 }
 .img-size{
     height: 32px;
