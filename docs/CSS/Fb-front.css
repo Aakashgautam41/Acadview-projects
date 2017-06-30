@@ -51,6 +51,7 @@ body{
 }
 .navbar{
        background-color:#3b5998; 
+       margin-left: -80px;
 }
 .navbar-default .navbar-nav>li>a {
     color:white;
@@ -72,7 +73,7 @@ body{
     color: #333;
     background-color:#f6f7f9;
     border-color:white;
-    margin-left: -55px;
+    margin-left: -53px;
     border-left:none;
     height: 30px;
     width:50px;
@@ -275,6 +276,10 @@ li{
     margin-right: 8px;
 }
 .righty{
+    float: right;
+    margin-top: -30px;
+}
+.righty1{
     float: right;
     margin-top: 10px;
 }
