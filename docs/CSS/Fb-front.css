@@ -132,8 +132,11 @@ body{
 .down{
     margin-top: 2px;
 }
-  
+.bordr{
+   
  
+ 
+}
  
 /*--------------------------------------------------navbar end-----------------------------------------------------*/
 
@@ -155,7 +158,9 @@ body{
     margin-left: -50px;
     margin-top: 70px;
 }
- 
+#clr{
+    background-color:#e9ebee; 
+}
  
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
     font-size: 12px;
