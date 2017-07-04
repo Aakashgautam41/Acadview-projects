@@ -52,15 +52,17 @@ body{
     border-color: #e7e7e7;
     background-color:#3b5998;
 }
+/*
 .navbar{
        background-color:#3b5998;
      
-       margin-left: -163px;
+       margin-left: -120px;
        position: fixed;
        z-index: 1;
-       width: 1600px;
+      
  
 }
+*/
 .navbar-default .navbar-nav>li>a {
     color:white;
     font-weight: normal;
@@ -132,11 +134,11 @@ body{
 .down{
     margin-top: 2px;
 }
-.bordr{
-   
- 
- 
+.shift-rt{
+    margin-right: 200px;
+    padding-right: 40px;
 }
+
  
 /*--------------------------------------------------navbar end-----------------------------------------------------*/
 
@@ -146,7 +148,7 @@ body{
 .left-col{
     background-color:transparent;
     border:none;
-    margin-left: 30px;
+    margin-left: 20px;
     position: absolute;
 } 
 .left-col:hover{
@@ -155,7 +157,7 @@ body{
 } 
 .col-md-3{
     position: relative;
-    margin-left: -50px;
+    margin-left: -100px;
     margin-top: 70px;
 }
 #clr{
@@ -597,24 +599,29 @@ blockquote {
  
 }
 
-.main{
-    overflow: hidden;
-}
-
-
-
+ 
+ 
 /*-----------------------------------------------footer ends here------------------------------------------------------*/
 
 @media(max-width:780px)
 {
-    .col-xs-12{
+ #main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}  
+    
+    
+    
+.col-xs-12{
         margin-left: 20px;
         margin-right: 20px;
-    }
-    .center-img{
+          }
+.center-img{
         height: 150px;
         width: 200px; 
-margin-left: -10px;     
+        margin-left: -10px;     
     }
     .button{
  
@@ -646,15 +653,14 @@ margin-left: -10px;
     font-weight: normal;
     display: block;
     text-align: center;
-    
-    
-   
+ 
 }
+    
     .dropdown .big-icon1{                            
-    font-size: 22px;
-    color:white;
-    margin-left: 135px;
+ display: none;
+     
 }
+    
     .phm{
     margin-right: 5px;
         display: block;
@@ -673,7 +679,16 @@ margin-left: -10px;
     
  
 }
-
+    .navbar{
+        background-color:#3b5998; 
+    }
+    .hidn{
+        display: none;
+    }
+    .drop-caret{                           /*Caret of drpodown btn*/
+    display: none;
+}
+ 
 }
 
 
